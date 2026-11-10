@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SholatKu</string>
+
+    <!-- Beranda -->
+    <string name="salam">Assalamualaikum,</string>
+    <string name="nama_default">Pengguna</string>
+    <string name="format_lokasi">Lokasi: %1$s (jadwal contoh)</string>
+    <string name="judul_jadwal">Jadwal Salat Hari Ini</string>
+    <string name="info_jadwal_contoh">Jadwal contoh, bukan jadwal akurat berdasarkan lokasi.</string>
+    <string name="subuh">Subuh</string>
+    <string name="zuhur">Zuhur</string>
+    <string name="asar">Asar</string>
+    <string name="magrib">Magrib</string>
+    <string name="isya">Isya</string>
+    <string name="jam_subuh">04:40</string>
+    <string name="jam_zuhur">12:00</string>
+    <string name="jam_asar">15:15</string>
+    <string name="jam_magrib">18:00</string>
+    <string name="jam_isya">19:10</string>
+    <string name="catatan_beranda">Versi awal memakai data contoh. Perhitungan waktu salat sesuai lokasi belum dibuat.</string>
+    <string name="tombol_riwayat">Riwayat Salat</string>
+    <string name="tombol_pengaturan">Pengaturan</string>
+    <string name="identitas">Ahmad Awalludin • 2459201046 • Kelas 3D\nSistem Informasi • Universitas Muhammadiyah Kotabumi</string>
+
+    <!-- Riwayat -->
+    <string name="judul_riwayat">Riwayat Salat</string>
+    <string name="riwayat_kosong">Belum ada riwayat salat.</string>
+    <string name="tombol_tambah_riwayat">Tambah Riwayat</string>
+    <string name="judul_dialog_tambah">Tambah Riwayat Salat</string>
+    <string name="label_pilih_salat">Pilih salat</string>
+    <string name="cb_sudah_dikerjakan">Sudah dikerjakan</string>
+    <string name="status_sudah">Sudah dikerjakan</string>
+    <string name="status_belum">Belum dikerjakan</string>
+    <string name="judul_hapus">Hapus riwayat?</string>
+    <string name="pesan_hapus">Riwayat %1$s tanggal %2$s akan dihapus.</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="desc_hapus">Hapus riwayat</string>
+    <string name="toast_riwayat_ditambah">Riwayat ditambahkan</string>
+    <string name="toast_riwayat_dihapus">Riwayat dihapus</string>
+    <string name="toast_riwayat_gagal">Gagal menyimpan riwayat</string>
+
+    <string-array name="daftar_salat">
+        <item>Subuh</item>
+        <item>Zuhur</item>
+        <item>Asar</item>
+        <item>Magrib</item>
+        <item>Isya</item>
+    </string-array>
+
+    <!-- Pengaturan -->
+    <string name="judul_pengaturan">Pengaturan</string>
+    <string name="judul_profil">Profil &amp; Lokasi</string>
+    <string name="hint_nama">Nama panggilan</string>
+    <string name="hint_kota">Nama kota</string>
+    <string name="judul_tampilan">Tampilan</string>
+    <string name="tema_gelap">Tema gelap</string>
+    <string name="judul_pengingat">Pengingat Salat</string>
+    <string name="pengingat_subuh">Pengingat Subuh</string>
+    <string name="pengingat_zuhur">Pengingat Zuhur</string>
+    <string name="pengingat_asar">Pengingat Asar</string>
+    <string name="pengingat_magrib">Pengingat Magrib</string>
+    <string name="pengingat_isya">Pengingat Isya</string>
+    <string name="tombol_simpan">Simpan</string>
+    <string name="info_pengaturan">Pengaturan disimpan di perangkat (SharedPreferences). Saat ini yang tersimpan baru pilihan aktif/nonaktif pengingat; notifikasi otomatis belum dibuat.</string>
+    <string name="toast_disimpan">Pengaturan berhasil disimpan</string>
+</resources>
